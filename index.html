@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <!-- STANDARD ON-PAGE SEO METRICS -->
     <title>Money Clicker Game — Play Money Clicker Unblocked Online</title>
     <meta name="description" content="Play the ultimate Money Clicker game unblocked! Grow your empire from a lemonade stand to a venture syndicate in this high-yield clicker money game.">
     <meta name="keywords" content="Money clicker, money clicker, blood money clicker game, money clicker game, money clicker unblocked, money clicker games, clicker money games">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://yourdomain.com/">
 
-    <!-- PREMIUM OPEN GRAPH (OG) SOCIAL MATRIX METAS -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Money Clicker Game — Play Money Clicker Unblocked Online">
     <meta property="og:description" content="Tap to build a global financial empire. Unlock 100 enterprise tiers and multiply your yields in the best unblocked clicker money game online.">
@@ -19,13 +17,11 @@
     <meta property="og:image" content="https://yourdomain.com/assets/og-cover.png">
     <meta property="og:site_name" content="Money Clicker Pro">
 
-    <!-- TWITTER CARD STRUCTURES -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Money Clicker Game — Play Money Clicker Unblocked">
     <meta name="twitter:description" content="Tap to stack virtual wealth, unlock high-yield portfolios, and conquer the global leaderboards. Play completely unblocked now.">
     <meta name="twitter:image" content="https://yourdomain.com/assets/og-cover.png">
 
-    <!-- JSON-LD FOR FAQ SEO SCHEMA -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -81,6 +77,7 @@
             --text-main: #f0f4f8;
             --text-muted: #627d98;
             --accent-blue: #2196f3;
+            --error-red: #ff5252;
         }
 
         * {
@@ -311,6 +308,20 @@
         .blog-content { font-size: 0.95rem; color: #b8c9db; line-height: 1.6; }
         .blog-share-btn { background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.3); color: var(--money-green); padding: 0.4rem 0.85rem; border-radius: 8px; font-weight: bold; cursor: pointer; align-self: flex-start; }
 
+        /* VIRTUALIZED ERROR PAGE STYLING */
+        .error-page-container {
+            width: 100%; max-width: 600px; margin: 4rem auto; padding: 2.5rem;
+            background: var(--panel-bg); border: 2px solid var(--panel-border); border-radius: 24px;
+            text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.7); display: flex; flex-direction: column; align-items: center; gap: 1.25rem;
+        }
+        .error-code { font-size: 5rem; font-weight: 900; color: var(--error-red); text-shadow: 0 0 20px rgba(255,82,82,0.3); font-family: monospace; }
+        .error-title { font-size: 1.5rem; color: #fff; font-weight: 800; }
+        .error-desc { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
+        .error-stack-trace {
+            width: 100%; max-height: 120px; overflow-y: auto; background: #060b11; border: 1px solid var(--panel-border);
+            padding: 0.75rem; border-radius: 8px; font-family: monospace; font-size: 0.75rem; color: #cfd8dc; text-align: left; display: none;
+        }
+
         /* ON-PAGE SEO WRAPPER STYLING */
         .seo-content-section {
             width: 100%; max-width: 1400px; margin: 2.5rem auto 0 auto; padding: 0 1.5rem; display: flex; flex-direction: column; gap: 1.2rem;
@@ -400,6 +411,7 @@
     <div id="goldenIngotLayer"></div>
 
     <div class="app-view">
+        
         <div class="page-content active" id="page-game">
             <div class="game-hub-layout">
                 
@@ -463,12 +475,19 @@
             </div>
         </div>
 
-        <!-- ========================================== -->
-        <!--  600+ WORDS INDEXABLE ON-PAGE SEO CONTENT  -->
-        <!-- ========================================== -->
+        <div class="page-content" id="page-error">
+            <div class="error-page-container">
+                <div class="error-code" id="errorStatusCode">404</div>
+                <h2 class="error-title" id="errorPageTitle">Resource Not Found</h2>
+                <p class="error-desc" id="errorPageDesc">The system route link or parameter chunk you tried to load doesn't exist or was removed by active administrative memory wipes.</p>
+                <div class="error-stack-trace" id="errorStackTraceLog"></div>
+                <button class="purchase-btn" onclick="recoverFromErrorPage()" style="max-width:240px;">Return to Game Hub</button>
+            </div>
+        </div>
+
         <section class="seo-content-section">
             <h2>Welcome to Money Clicker — The Ultimate Capitalist Simulator</h2>
-            <p>Welcome to the ultimate web edition of the <strong>money clicker game</strong>, a modern simulation model optimized to test your economic scaling strategies. If you enjoy classic idle games, this portal delivers an outstanding corporate development environment. Unlike baseline clicking apps, our <strong>money clicker</strong> engine features multi-layered mechanics that elevate it far above standard incremental progression platforms.</p>
+            <p>Welcome to the ultimate web edition of the <strong>money clicker game</strong>, a modern simulation model optimized to test your economic scaling strategies. If you enjoy casual idle games, this portal delivers an outstanding corporate development environment. Unlike baseline clicking apps, our <strong>money clicker</strong> engine features multi-layered mechanics that elevate it far above standard incremental progression platforms.</p>
             
             <p>Your journey starts with simple, deliberate manual labor: pressing our central interaction stack to earn your very first dollars. As your capital grows, you can move away from manual clicking and dive into fully automated corporate acquisition pipelines. From buying independent local lemonade stands to managing national logistics hubs and multi-layered SaaS networks, this <strong>money clicker game</strong> provides a massive sandbox for running virtual operations.</p>
 
@@ -488,9 +507,6 @@
             <p>Explore our 100-tier upgrade cabinet, trade virtual diamonds on the Fortune Wheel, and build a massive asset network. Start tapping right now to find out if you have what it takes to scale your business from a street corner into a massive global conglomerate in the most comprehensive business simulator on the web!</p>
         </section>
 
-        <!-- ========================================== -->
-        <!--   SEO ACCORDION FAQ SECTION ON HOME PAGE   -->
-        <!-- ========================================== -->
         <section class="faq-accordion-shelf">
             <h2>Frequently Asked Questions (FAQ)</h2>
             
@@ -599,6 +615,37 @@
         const smallBizList = ["Lemonade Stand", "Specialty Coffee Cart", "Artisan Bakery Studio", "Independent Laundromat", "Suburban Fitness Hub", "E-Commerce Logistics Hub", "Micro-Brewery Facility"];
         const enterpriseList = ["Commercial Retail Complex", "Regional Distribution Network", "Enterprise SaaS Network", "High-Density Data Center", "National Investment Syndicate", "Global Rail Freight Array"];
         const emojis = ["🍋", "☕", "🍞", "🧺", "🏋️", "📦", "🍺", "🏢", "🚚", "💻", "💾", "📈", "🚊", "👑", "💎"];
+
+        // DYNAMIC ROUTING & INTERCEPTOR ADAPTERS FOR EXPLICIT ERROR TRIGGERING
+        window.onerror = function(message, source, lineno, colno, error) {
+            triggerDynamicErrorPage(500, "Internal Server Error", `An unhandled exception runtime error crashed your operation. context: ${message} inside line ${lineno}`);
+            return true;
+        };
+
+        function triggerDynamicErrorPage(code, title, description) {
+            document.getElementById('page-game').classList.remove('active');
+            document.getElementById('page-blog').classList.remove('active');
+            
+            document.getElementById('errorStatusCode').textContent = code;
+            document.getElementById('errorPageTitle').textContent = title;
+            document.getElementById('errorPageDesc').textContent = description;
+            
+            const logBox = document.getElementById('errorStackTraceLog');
+            if (code === 500) {
+                logBox.style.display = "block";
+                logBox.textContent = `SYSTEM HALT TRACE LOG:\nCODE_BLOCK_INTERCEPT:\nSTAMP: ${Date.now()}\nTARGET: money_clicker_core_module.js\nSTATUS: LOCKED`;
+            } else {
+                logBox.style.display = "none";
+            }
+            
+            document.getElementById('page-error').classList.add('active');
+        }
+
+        function recoverFromErrorPage() {
+            document.getElementById('page-error').classList.remove('active');
+            window.location.hash = "";
+            showPage('game');
+        }
 
         function buildUpgrades() {
             upgradesDatabase.push({ id: 0, name: "Manual Task Entry", type: "tapper", rate: 1, baseCost: 15, emoji: "🖱️" });
@@ -842,8 +889,15 @@
         }
 
         function showPage(pageId) {
+            if (pageId !== 'game' && pageId !== 'blog') {
+                triggerDynamicErrorPage(404, "Page Route Not Found", "The secure navigational system hash layout string you targeted does not connect to a valid operational index.");
+                return;
+            }
+
             document.getElementById('page-game').classList.remove('active');
             document.getElementById('page-blog').classList.remove('active');
+            document.getElementById('page-error').classList.remove('active');
+            
             document.getElementById('btnPageGame').classList.remove('active');
             document.getElementById('btnPageBlog').classList.remove('active');
 
@@ -892,7 +946,6 @@
 
         setInterval(() => { if (Math.random() < 0.3) triggerGoldenIngotSpawn(); }, 20000);
 
-        /* FRONT-END FAQ INTERACTIVE ACCORDION TOGGLE */
         function toggleFaqAccordion(element) {
             const parent = element.parentElement;
             const panel = element.nextElementSibling;
@@ -901,7 +954,6 @@
                 panel.style.maxHeight = null;
                 parent.classList.remove('active');
             } else {
-                // Close any currently active panels first
                 document.querySelectorAll('.faq-block').forEach(block => {
                     block.classList.remove('active');
                     block.querySelector('.faq-answer-panel').style.maxHeight = null;
@@ -1131,6 +1183,11 @@
 
         window.onload = function() {
             calculateYieldBalances(); renderStore(); refreshUI(); requestAnimationFrame(executeFrame);
+            
+            // Check for illegal client window state hash parameters on startup
+            if (window.location.hash && window.location.hash !== "#game" && window.location.hash !== "#blog") {
+                triggerDynamicErrorPage(404, "Page Route Not Found", "The system route link or parameter chunk you tried to load doesn't exist or was removed.");
+            }
         };
     </script>
 </body>
