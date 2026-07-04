@@ -2,25 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R7HB3MBZG4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-R7HB3MBZG4');
+    </script>
+    <!-- Vercel Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <title>Money Clicker Game — Play Money Clicker Unblocked Online</title>
     <meta name="description" content="Play the ultimate Money Clicker game unblocked! Grow your empire from a lemonade stand to a venture syndicate in this high-yield clicker money game.">
-    <meta name="keywords" content="Money clicker, money clicker, blood money clicker game, money clicker game, money clicker unblocked, money clicker games, clicker money games">
+    <meta name="keywords" content="Money clicker, money clicker game, money clicker unblocked, clicker money games, idle game, incremental game, business simulator, capitalism game, unblocked games, free online games">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://yourdomain.com/">
+    <link rel="canonical" href="https://money-clicker.netlify.app/">
 
     <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&family=Geist:wght@400;600;800;900&display=swap" rel="stylesheet">
     <meta property="og:title" content="Money Clicker Game — Play Money Clicker Unblocked Online">
     <meta property="og:description" content="Tap to build a global financial empire. Unlock 100 enterprise tiers and multiply your yields in the best unblocked clicker money game online.">
-    <meta property="og:url" content="https://yourdomain.com/">
-    <meta property="og:image" content="https://yourdomain.com/assets/og-cover.png">
+    <meta property="og:url" content="https://money-clicker.netlify.app/">
+    <meta property="og:image" content="https://money-clicker.netlify.app/assets/og-cover.png">
     <meta property="og:site_name" content="Money Clicker Pro">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Money Clicker Game — Play Money Clicker Unblocked">
     <meta name="twitter:description" content="Tap to stack virtual wealth, unlock high-yield portfolios, and conquer the global leaderboards. Play completely unblocked now.">
-    <meta name="twitter:image" content="https://yourdomain.com/assets/og-cover.png">
+    <meta name="twitter:image" content="https://money-clicker.netlify.app/assets/og-cover.png">
 
     <script type="application/ld+json">
     {
@@ -61,6 +77,27 @@
           "@type": "Answer",
           "text": "<p>Yes, the Money Clicker game is an exceptional choice for fans of casual idle strategies and incremental simulator games. It delivers a deeply engaging progression dynamic with a 100-tier upgrade cabinet, automated business synergies, permanent prestige resets, and a dynamic 10-event fortune loop. It offers clean, fast-loading, and responsive fun that stands out as a top option among web-based capitalist parodies.</p>"
         }
+      }, {
+        "@type": "Question",
+        "name": "Are money clicker games a good way to learn about finance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>While highly entertaining, money clicker games are simplified parodies and not direct educational tools for real-world finance. They excel at teaching basic concepts of exponential growth, resource allocation, and investment prioritization in a fun, risk-free environment. They provide a great model for understanding how small, consistent investments can lead to massive returns over time.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "What does 'unblocked' mean for a game?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>'Unblocked' games are designed to be accessible on networks that might otherwise restrict access to gaming websites, such as those found in schools or workplaces. They are typically lightweight, built with standard web technologies like HTML5 and JavaScript, and don't require special plugins to run, allowing them to bypass common network filters.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "How can I maximize my earnings in Money Clicker?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>A balanced strategy is the most effective path to maximizing earnings. In the early game, focus on upgrading your manual click power. As your income grows, shift your investment toward passive income streams to build a solid foundation. Most importantly, don't neglect to use the Prestige feature. The permanent production bonus it provides is absolutely crucial for exponential growth in the late game. Finally, always take advantage of the random Golden Ingot events for massive temporary boosts.</p>"
+        }
       }]
     }
     </script>
@@ -89,11 +126,12 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             background-color: var(--bg-dark);
             color: var(--text-main);
             overflow-x: hidden;
             overflow-y: auto;
+            -webkit-font-smoothing: antialiased;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -114,7 +152,7 @@
 
         .nav-logo {
             font-size: 1.3rem;
-            font-weight: 900;
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 2px;
             background: linear-gradient(135deg, #ffffff, var(--money-green));
@@ -132,7 +170,7 @@
             background: rgba(156, 39, 176, 0.15);
             border: 1px solid var(--accent-purple);
             padding: 0.35rem 0.85rem;
-            border-radius: 20px;
+            border-radius: 9999px;
             font-weight: bold;
             color: #e040fb;
             display: flex;
@@ -146,7 +184,7 @@
             border: 1px solid var(--accent-gold);
             color: var(--accent-gold);
             padding: 0.35rem 0.85rem;
-            border-radius: 20px;
+            border-radius: 9999px;
             font-weight: bold;
             cursor: pointer;
             font-size: 0.9rem;
@@ -164,7 +202,7 @@
             border: 1px solid var(--panel-border);
             color: var(--text-muted);
             padding: 0.4rem 1rem;
-            border-radius: 8px;
+            border-radius: 6px;
             font-weight: 600;
             cursor: pointer;
             font-size: 0.85rem;
@@ -245,11 +283,11 @@
         .game-hub-layout { display: flex; width: 100%; gap: 1.5rem; align-items: flex-start; }
         .game-play-column { display: flex; flex-direction: column; align-items: center; flex: 1; min-width: 0; }
         .branding-container { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 0.4rem; width: 100%; }
-        .main-title { font-size: 2.4rem; font-weight: 900; text-transform: uppercase; letter-spacing: 3px; background: linear-gradient(135deg, #ffffff 30%, var(--money-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .main-title { font-size: 2.4rem; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; background: linear-gradient(135deg, #ffffff 30%, var(--money-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .quote-sub { font-size: 0.9rem; color: var(--text-muted); }
 
         .scoreboard {
-            background: linear-gradient(180deg, var(--panel-bg) 0%, #0d151f 100%);
+            background: var(--panel-bg);
             padding: 1rem 2.5rem; border-radius: 20px; border: 2px solid var(--panel-border);
             box-shadow: 0 12px 40px rgba(0,0,0,0.6); text-align: center; min-width: 340px; margin-top: 0.5rem;
         }
@@ -268,7 +306,7 @@
         .money-stack-design { position: absolute; width: 88%; height: 84%; border: 2px dashed rgba(255,255,255,0.22); border-radius: 12px; display: flex; align-items: center; justify-content: center; pointer-events: none; }
         .money-stack-design::before { content: ''; position: absolute; width: 52px; height: 100%; background-color: rgba(255, 255, 255, 0.95); border-left: 2px dashed #999; border-right: 2px dashed #999; }
         .money-stack-center { width: 56px; height: 56px; border-radius: 50%; background: rgba(0, 0, 0, 0.4); border: 2px double rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; color: var(--money-green); font-size: 2.3rem; font-weight: 900; z-index: 2; }
-        .money-stack.clicking { transform: translateY(8px) scale(0.97) !important; box-shadow: 0 2px 0 #0d3c12, 0 4px 0 #051d07, 0 12px 25px rgba(0,0,0,0.6); }
+        .money-stack.clicking { transform: translateY(6px) scale(0.98) !important; box-shadow: 0 4px 0 #0d3c12, 0 8px 0 #051d07, 0 12px 25px rgba(0,0,0,0.6); }
 
         .store-shelf {
             background-color: var(--panel-bg); width: 420px; max-height: 640px; padding: 1.25rem;
@@ -276,11 +314,11 @@
         }
         .store-header { display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0; }
         .store-tabs { display: flex; gap: 0.25rem; width: 100%; }
-        .store-tab-btn { flex: 1; background: rgba(0,0,0,0.3); border: 1px solid var(--panel-border); color: var(--text-muted); padding: 0.55rem 0.25rem; border-radius: 8px; cursor: pointer; font-size: 0.78rem; font-weight: bold; text-align: center; }
+        .store-tab-btn { flex: 1; background: rgba(0,0,0,0.3); border: 1px solid var(--panel-border); color: var(--text-muted); padding: 0.55rem 0.25rem; border-radius: 6px; cursor: pointer; font-size: 0.78rem; font-weight: bold; text-align: center; }
         .store-tab-btn.active { background: var(--money-green); color: #000; border-color: var(--money-green); }
         .store-tab-btn.premium-tab { border-color: var(--accent-purple); color: #e040fb; }
         .store-tab-btn.premium-tab.active { background: var(--accent-purple); color: #fff; }
-        .search-bar { background: rgba(0,0,0,0.3); border: 1px solid var(--panel-border); color: white; padding: 0.65rem 1rem; border-radius: 12px; font-size: 0.9rem; outline: none; width: 100%; }
+        .search-bar { background: rgba(0,0,0,0.3); border: 1px solid var(--panel-border); color: white; padding: 0.65rem 1rem; border-radius: 6px; font-size: 0.9rem; outline: none; width: 100%; }
 
         .scrollable-list {
             flex-grow: 1; overflow-y: auto !important; -webkit-overflow-scrolling: touch; display: flex; flex-direction: column; gap: 0.65rem; padding-right: 0.4rem;
@@ -297,7 +335,7 @@
         .item-details h4 { font-size: 1.05rem; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
         .item-details p { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
 
-        .purchase-btn { background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%); color: white; border: none; padding: 0.65rem 1rem; border-radius: 12px; font-weight: 700; cursor: pointer; font-size: 0.85rem; width: 100%; }
+        .purchase-btn { background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%); color: white; border: none; padding: 0.65rem 1rem; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 0.85rem; width: 100%; }
         .purchase-btn:disabled { background: #141b24; color: #3b4e64; cursor: not-allowed; }
         .purchase-btn.premium-buy { background: linear-gradient(135deg, #d81b60 0%, #8e24aa 100%); }
 
@@ -306,7 +344,7 @@
         .blog-post-title { font-size: 1.4rem; font-weight: 800; color: #fff; background: linear-gradient(135deg, #ffffff, var(--money-green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .blog-meta { font-size: 0.8rem; color: var(--text-muted); display: flex; gap: 1rem; border-bottom: 1px solid var(--panel-border); padding-bottom: 0.5rem; }
         .blog-content { font-size: 0.95rem; color: #b8c9db; line-height: 1.6; }
-        .blog-share-btn { background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.3); color: var(--money-green); padding: 0.4rem 0.85rem; border-radius: 8px; font-weight: bold; cursor: pointer; align-self: flex-start; }
+        .blog-share-btn { background: rgba(0, 230, 118, 0.1); border: 1px solid rgba(0, 230, 118, 0.3); color: var(--money-green); padding: 0.4rem 0.85rem; border-radius: 6px; font-weight: bold; cursor: pointer; align-self: flex-start; }
 
         /* VIRTUALIZED ERROR PAGE STYLING */
         .error-page-container {
@@ -314,7 +352,7 @@
             background: var(--panel-bg); border: 2px solid var(--panel-border); border-radius: 24px;
             text-align: center; box-shadow: 0 20px 50px rgba(0,0,0,0.7); display: flex; flex-direction: column; align-items: center; gap: 1.25rem;
         }
-        .error-code { font-size: 5rem; font-weight: 900; color: var(--error-red); text-shadow: 0 0 20px rgba(255,82,82,0.3); font-family: monospace; }
+        .error-code { font-size: 5rem; font-weight: 900; color: var(--error-red); text-shadow: 0 0 20px rgba(255,82,82,0.3); font-family: 'Geist Mono', monospace; }
         .error-title { font-size: 1.5rem; color: #fff; font-weight: 800; }
         .error-desc { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
         .error-stack-trace {
@@ -368,7 +406,7 @@
         .drawer-body { font-size: 0.9rem; line-height: 1.5; color: #b8c9db; display: flex; flex-direction: column; gap: 1rem; }
         .setting-control { display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 0.8rem 1rem; border-radius: 10px; border: 1px solid var(--panel-border); }
         .toggle-btn { padding: 0.4rem 1.1rem; border-radius: 8px; border: 1px solid var(--panel-border); background: #121c29; color: white; cursor: pointer; font-weight: bold; }
-        .toggle-btn.active { background: var(--money-dark); border-color: var(--money-green); }
+        .toggle-btn.active { background: var(--money-dark); border-color: var(--money-green); color: #fff; }
         .danger-action-btn { background: #e53935; color: white; border: none; padding: 0.5rem 1.1rem; border-radius: 8px; font-weight: bold; cursor: pointer; }
         .dialog-buttons { display: flex; justify-content: flex-end; gap: 1rem; margin-top: 1.25rem; }
         .dialog-btn-cancel { background: rgba(255,255,255,0.06); border: 1px solid var(--panel-border); color: var(--text-main); padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; }
@@ -378,7 +416,7 @@
             .store-shelf { width: 100%; max-height: 480px; }
             .main-title { font-size: 2rem; }
             .scoreboard { min-width: 100%; padding: 0.75rem 1.5rem; }
-            .counter { font-size: 2.5rem; }
+            .counter { font-size: 2.5rem; font-family: 'Geist Mono', monospace; }
         }
     </style>
 </head>
@@ -421,7 +459,7 @@
                         <div class="quote-sub" id="clickValueTracker">Value Per Click: $1</div>
                         
                         <div class="scoreboard">
-                            <div class="counter" id="balanceDisplay">$0</div>
+                            <div class="counter" id="balanceDisplay" style="font-family: 'Geist Mono', monospace;">$0</div>
                             <div class="passive-rate" id="rateDisplay">Passive Income: $0 / sec</div>
                             <div class="prestige-rate" id="prestigeDisplay">Prestige Level: 0 (+0% Boost)</div>
                         </div>
@@ -544,6 +582,27 @@
                     <p>Yes, the Money Clicker game is an exceptional choice for fans of casual idle strategies and incremental simulator games. It delivers a deeply engaging progression dynamic with a 100-tier upgrade cabinet, automated business synergies, permanent prestige resets, and a dynamic 10-event fortune loop. It offers clean, fast-loading, and responsive fun that stands out as a top option among web-based capitalist parodies.</p>
                 </div>
             </div>
+
+            <div class="faq-block">
+                <button class="faq-question-trigger" onclick="toggleFaqAccordion(this)">Are money clicker games a good way to learn about finance?</button>
+                <div class="faq-answer-panel">
+                    <p>While highly entertaining, money clicker games are simplified parodies and not direct educational tools for real-world finance. They excel at teaching basic concepts of exponential growth, resource allocation, and investment prioritization in a fun, risk-free environment. They provide a great model for understanding how small, consistent investments can lead to massive returns over time.</p>
+                </div>
+            </div>
+
+            <div class="faq-block">
+                <button class="faq-question-trigger" onclick="toggleFaqAccordion(this)">What does 'unblocked' mean for a game?</button>
+                <div class="faq-answer-panel">
+                    <p>'Unblocked' games are designed to be accessible on networks that might otherwise restrict access to gaming websites, such as those found in schools or workplaces. They are typically lightweight, built with standard web technologies like HTML5 and JavaScript, and don't require special plugins to run, allowing them to bypass common network filters.</p>
+                </div>
+            </div>
+
+            <div class="faq-block">
+                <button class="faq-question-trigger" onclick="toggleFaqAccordion(this)">How can I maximize my earnings in Money Clicker?</button>
+                <div class="faq-answer-panel">
+                    <p>A balanced strategy is the most effective path to maximizing earnings. In the early game, focus on upgrading your manual click power. As your income grows, shift your investment toward passive income streams to build a solid foundation. Most importantly, don't neglect to use the Prestige feature. The permanent production bonus it provides is absolutely crucial for exponential growth in the late game. Finally, always take advantage of the random Golden Ingot events for massive temporary boosts.</p>
+                </div>
+            </div>
         </section>
 
         <div class="documentation-shelf">
@@ -577,618 +636,6 @@
         </div>
     </div>
 
-    <script>
-        let db = {
-            cash: parseFloat(localStorage.getItem('m6_csh')) || 0.0,
-            mps: parseInt(localStorage.getItem('m6_mps')) || 0,
-            clickPower: parseInt(localStorage.getItem('m6_clp')) || 1,
-            diamonds: parseInt(localStorage.getItem('m6_dia')) || 0,
-            prestigeTokens: parseInt(localStorage.getItem('m6_ptk')) || 0,
-            permMultiplier: parseFloat(localStorage.getItem('m6_pmu')) || 1.0,
-            totalHistoricalClicks: parseInt(localStorage.getItem('m6_hcl')) || 0,
-            fxEnabled: localStorage.getItem('m6_fx') !== 'false',
-            soundEnabled: localStorage.getItem('m6_snd') !== 'false',
-            upgradesOwned: JSON.parse(localStorage.getItem('m6_upg_owned')) || {},
-            upgradesCost: JSON.parse(localStorage.getItem('m6_upg_cost')) || {}
-        };
-
-        const canvas = document.getElementById('gameCanvas');
-        const ctx = canvas.getContext('2d');
-        const dollarBills = [];
-        const floaters = [];
-        let activeTab = 'all';
-        let searchQuery = '';
-        let isStoreBuilt = false;
-        
-        let frenzyTimer = 0; 
-        let clickBuffTimer = 0; 
-        let passiveBuffTimer = 0;
-        const FRENZY_MULT = 7;
-
-        const upgradesDatabase = [];
-        const premiumDatabase = [
-            { id: 'p_warp', name: "Instant 2-Hour Cash Injection", desc: "Compress operational timelines. Instantly collect 2 hours of current passive returns.", cost: 3, type: 'warp' },
-            { id: 'p_mult', name: "Permanent 2x Factory Synergy", desc: "Apply specialized management algorithms to double all passive output streams permanently.", cost: 10, type: 'mult' },
-            { id: 'p_click', name: "Supercharged Kinetic Click Core", desc: "Permanently appends +250 base value to all manual click actions.", cost: 6, type: 'clicker' }
-        ];
-
-        const smallBizList = ["Lemonade Stand", "Specialty Coffee Cart", "Artisan Bakery Studio", "Independent Laundromat", "Suburban Fitness Hub", "E-Commerce Logistics Hub", "Micro-Brewery Facility"];
-        const enterpriseList = ["Commercial Retail Complex", "Regional Distribution Network", "Enterprise SaaS Network", "High-Density Data Center", "National Investment Syndicate", "Global Rail Freight Array"];
-        const emojis = ["🍋", "☕", "🍞", "🧺", "🏋️", "📦", "🍺", "🏢", "🚚", "💻", "💾", "📈", "🚊", "👑", "💎"];
-
-        // DYNAMIC ROUTING & INTERCEPTOR ADAPTERS FOR EXPLICIT ERROR TRIGGERING
-        window.onerror = function(message, source, lineno, colno, error) {
-            triggerDynamicErrorPage(500, "Internal Server Error", `An unhandled exception runtime error crashed your operation. context: ${message} inside line ${lineno}`);
-            return true;
-        };
-
-        function triggerDynamicErrorPage(code, title, description) {
-            document.getElementById('page-game').classList.remove('active');
-            document.getElementById('page-blog').classList.remove('active');
-            
-            document.getElementById('errorStatusCode').textContent = code;
-            document.getElementById('errorPageTitle').textContent = title;
-            document.getElementById('errorPageDesc').textContent = description;
-            
-            const logBox = document.getElementById('errorStackTraceLog');
-            if (code === 500) {
-                logBox.style.display = "block";
-                logBox.textContent = `SYSTEM HALT TRACE LOG:\nCODE_BLOCK_INTERCEPT:\nSTAMP: ${Date.now()}\nTARGET: money_clicker_core_module.js\nSTATUS: LOCKED`;
-            } else {
-                logBox.style.display = "none";
-            }
-            
-            document.getElementById('page-error').classList.add('active');
-        }
-
-        function recoverFromErrorPage() {
-            document.getElementById('page-error').classList.remove('active');
-            window.location.hash = "";
-            showPage('game');
-        }
-
-        function buildUpgrades() {
-            upgradesDatabase.push({ id: 0, name: "Manual Task Entry", type: "tapper", rate: 1, baseCost: 15, emoji: "🖱️" });
-            upgradesDatabase.push({ id: 1, name: "Automated Lemonade Asset", type: "passive", rate: 1, baseCost: 60, emoji: "🍋" });
-            
-            let currentCost = 200;
-            let currentRate = 4;
-
-            for (let i = 2; i < 100; i++) {
-                const isTapper = i % 6 === 0;
-                let name = "";
-                let rate = 0;
-                let emoji = emojis[i % emojis.length];
-
-                if (isTapper) {
-                    name = `Ergonomic Click Core Tier ${Math.floor(i/6)+1}`;
-                    rate = Math.max(2, Math.floor(currentRate * 0.4));
-                } else {
-                    if (i < 45) {
-                        name = smallBizList[i % smallBizList.length] + ` Asset (#${Math.floor(i/7)+1})`;
-                    } else {
-                        name = enterpriseList[i % enterpriseList.length] + ` Group (v${Math.floor(i/6)+1})`;
-                    }
-                    rate = currentRate;
-                }
-
-                upgradesDatabase.push({
-                    id: i, name: name, type: isTapper ? "tapper" : "passive", rate: rate, baseCost: currentCost, emoji: emoji
-                });
-
-                currentCost = Math.floor(currentCost * 1.25);
-                if (!isTapper) currentRate = Math.floor(currentRate * 1.22) + 2;
-            }
-        }
-        buildUpgrades();
-
-        function saveSystem() {
-            localStorage.setItem('m6_csh', db.cash);
-            localStorage.setItem('m6_mps', db.mps);
-            localStorage.setItem('m6_clp', db.clickPower);
-            localStorage.setItem('m6_dia', db.diamonds);
-            localStorage.setItem('m6_ptk', db.prestigeTokens);
-            localStorage.setItem('m6_pmu', db.permMultiplier);
-            localStorage.setItem('m6_hcl', db.totalHistoricalClicks);
-            localStorage.setItem('m6_fx', db.fxEnabled);
-            localStorage.setItem('m6_snd', db.soundEnabled);
-            localStorage.setItem('m6_upg_owned', JSON.stringify(db.upgradesOwned));
-            localStorage.setItem('m6_upg_cost', JSON.stringify(db.upgradesCost));
-        }
-
-        function playChimeClick() {
-            if (!db.soundEnabled) return;
-            try {
-                const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-                const osc = audioCtx.createOscillator();
-                const gain = audioCtx.createGain();
-                osc.type = "sine";
-                osc.frequency.setValueAtTime(523.25, audioCtx.currentTime); 
-                osc.frequency.setValueAtTime(783.99, audioCtx.currentTime + 0.05); 
-                gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
-                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.25);
-                osc.connect(gain); gain.connect(audioCtx.destination);
-                osc.start(); osc.stop(audioCtx.currentTime + 0.3);
-            } catch (err) {}
-        }
-
-        function renderStore() {
-            const listContainer = document.getElementById('upgradesList');
-            if (!listContainer) return;
-            
-            if (isStoreBuilt) {
-                upgradesDatabase.forEach(item => {
-                    const card = document.getElementById(`card-u-${item.id}`);
-                    if (!card) return;
-                    const matchesTab = (activeTab === 'all' || item.type === activeTab);
-                    const matchesSearch = (!searchQuery || item.name.toLowerCase().includes(searchQuery));
-                    card.style.display = (matchesTab && matchesSearch) ? 'flex' : 'none';
-
-                    const owned = db.upgradesOwned[item.id] || 0;
-                    const cost = db.upgradesCost[item.id] || item.baseCost;
-
-                    const countText = document.getElementById(`count-u-${item.id}`);
-                    if (countText) {
-                        countText.innerHTML = `(Owned: ${owned}) ${owned >= 10 ? '<span style="color:var(--accent-gold); font-weight:bold;">[Synergy]</span>' : ''}`;
-                    }
-
-                    const btn = document.getElementById(`btn-u-${item.id}`);
-                    if (btn) {
-                        btn.textContent = `Cost: $${cost.toLocaleString()}`;
-                        btn.disabled = db.cash < cost;
-                    }
-                });
-
-                premiumDatabase.forEach(item => {
-                    const card = document.getElementById(`card-p-${item.id}`);
-                    if (card) card.style.display = (activeTab === 'premium') ? 'flex' : 'none';
-                    const btn = document.getElementById(`btn-p-${item.id}`);
-                    if (btn) btn.disabled = db.diamonds < item.cost;
-                });
-                return;
-            }
-
-            listContainer.innerHTML = "";
-
-            upgradesDatabase.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'item-card';
-                card.id = `card-u-${item.id}`;
-                card.innerHTML = `
-                    <div class="item-details">
-                        <h4>${item.emoji} ${item.name}</h4>
-                        <p>${item.type === 'tapper' ? `Manual Yield: +$${item.rate.toLocaleString()}` : `Passive Value: +$${item.rate.toLocaleString()}/sec`} <span id="count-u-${item.id}">(Owned: 0)</span></p>
-                    </div>
-                    <button class="purchase-btn" id="btn-u-${item.id}" onclick="buyUpgrade(${item.id})">Cost: $${item.baseCost}</button>
-                `;
-                listContainer.appendChild(card);
-            });
-
-            premiumDatabase.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'item-card premium-card';
-                card.id = `card-p-${item.id}`;
-                card.style.display = 'none';
-                card.innerHTML = `
-                    <div class="item-details">
-                        <h4 style="color: var(--accent-purple);">💎 ${item.name}</h4>
-                        <p style="color: #b8c9db;">${item.desc}</p>
-                    </div>
-                    <button class="purchase-btn premium-buy" id="btn-p-${item.id}" onclick="buyPremium('${item.id}')">Redeem for ${item.cost} Diamonds</button>
-                `;
-                listContainer.appendChild(card);
-            });
-
-            isStoreBuilt = true;
-        }
-
-        function buyUpgrade(id) {
-            const item = upgradesDatabase.find(u => u.id === id);
-            const cost = db.upgradesCost[id] || item.baseCost;
-
-            if (db.cash >= cost) {
-                db.cash -= cost;
-                db.upgradesOwned[id] = (db.upgradesOwned[id] || 0) + 1;
-                db.upgradesCost[id] = Math.floor(cost * 1.15);
-                
-                calculateYieldBalances();
-                refreshUI();
-                saveSystem();
-            }
-        }
-
-        function buyPremium(id) {
-            const item = premiumDatabase.find(p => p.id === id);
-            if (db.diamonds >= item.cost) {
-                db.diamonds -= item.cost;
-                if (item.type === 'warp') {
-                    const baselineMps = calculateYieldBalances(true);
-                    const proceeds = baselineMps * 7200;
-                    db.cash += proceeds;
-                    openModalMessage("Time Warp Deployed", `Operations processed. You instantly collected $${proceeds.toLocaleString()} of passive assets.`);
-                } else if (item.type === 'mult') {
-                    db.permMultiplier *= 2.0;
-                    openModalMessage("Synergy Link Active", "All automated portfolios produce 2x values permanently.");
-                } else if (item.type === 'clicker') {
-                    db.upgradesOwned['custom_buff_click'] = (db.upgradesOwned['custom_buff_click'] || 0) + 250;
-                    openModalMessage("Kinetic Matrix Added", "Manual processing arrays expanded. Base click actions yield extra cash.");
-                }
-                calculateYieldBalances();
-                refreshUI();
-                saveSystem();
-            }
-        }
-
-        function calculateYieldBalances(returnOnly = false) {
-            let passiveBase = 0;
-            let tappingBase = 1;
-
-            upgradesDatabase.forEach(item => {
-                const owned = db.upgradesOwned[item.id] || 0;
-                if (owned > 0) {
-                    let synergyBonus = owned >= 10 ? 2 : 1;
-                    if (item.type === 'passive') {
-                        passiveBase += (item.rate * owned * synergyBonus);
-                    } else {
-                        tappingBase += (item.rate * owned);
-                    }
-                }
-            });
-
-            tappingBase += (db.upgradesOwned['custom_buff_click'] || 0);
-
-            let prestigeBonus = 1 + (db.prestigeTokens * 0.1); 
-            let baseMps = Math.ceil(passiveBase * db.permMultiplier * prestigeBonus);
-            let baseClick = Math.ceil(tappingBase * prestigeBonus);
-
-            if (frenzyTimer > 0) { baseMps *= FRENZY_MULT; baseClick *= FRENZY_MULT; }
-            if (passiveBuffTimer > 0) { baseMps *= 3; }
-            if (clickBuffTimer > 0) { baseClick *= 5; }
-
-            if (returnOnly) return baseMps;
-
-            db.mps = baseMps;
-            db.clickPower = baseClick;
-        }
-
-        function refreshUI() {
-            document.getElementById('balanceDisplay').textContent = '$' + Math.floor(db.cash).toLocaleString();
-            document.getElementById('rateDisplay').textContent = `Passive Income: $${db.mps.toLocaleString()} / sec`;
-            document.getElementById('premiumDisplay').textContent = db.diamonds;
-            document.getElementById('prestigeDisplay').textContent = `Prestige Level: ${db.prestigeTokens} (+${db.prestigeTokens * 10}% Production Bonus)`;
-            
-            const clickTracker = document.getElementById('clickValueTracker');
-            if (clickTracker) clickTracker.textContent = `Value Per Click: $${db.clickPower.toLocaleString()}`;
-            
-            let isFrenzyActive = (frenzyTimer > 0 || passiveBuffTimer > 0 || clickBuffTimer > 0);
-            document.getElementById('frenzyNotice').style.display = isFrenzyActive ? 'block' : 'none';
-            if (isFrenzyActive) {
-                let text = "⚡ ACTIVE MODIFIERS: ";
-                if (frenzyTimer > 0) text += `[Golden Frenzy x7: ${Math.ceil(frenzyTimer)}s] `;
-                if (passiveBuffTimer > 0) text += `[Viral Hype x3 Production: ${Math.ceil(passiveBuffTimer)}s] `;
-                if (clickBuffTimer > 0) text += `[Overclock x5 Click: ${Math.ceil(clickBuffTimer)}s] `;
-                document.getElementById('frenzyNotice').textContent = text;
-            }
-
-            renderStore();
-        }
-
-        function filterStore(tab) {
-            document.getElementById('tab-all').classList.remove('active');
-            document.getElementById('tab-tapper').classList.remove('active');
-            document.getElementById('tab-passive').classList.remove('active');
-            document.getElementById('tab-premium').classList.remove('active');
-            if(document.getElementById(`tab-${tab}`)) document.getElementById(`tab-${tab}`).classList.add('active');
-            activeTab = tab;
-            renderStore();
-        }
-
-        function searchStore() {
-            searchQuery = document.getElementById('storeSearch').value.toLowerCase().trim();
-            renderStore();
-        }
-
-        function showPage(pageId) {
-            if (pageId !== 'game' && pageId !== 'blog') {
-                triggerDynamicErrorPage(404, "Page Route Not Found", "The secure navigational system hash layout string you targeted does not connect to a valid operational index.");
-                return;
-            }
-
-            document.getElementById('page-game').classList.remove('active');
-            document.getElementById('page-blog').classList.remove('active');
-            document.getElementById('page-error').classList.remove('active');
-            
-            document.getElementById('btnPageGame').classList.remove('active');
-            document.getElementById('btnPageBlog').classList.remove('active');
-
-            document.getElementById(`page-${pageId}`).classList.add('active');
-            document.getElementById(`btnPage${pageId.charAt(0).toUpperCase() + pageId.slice(1)}`).classList.add('active');
-            if (pageId === 'game') refreshUI();
-        }
-
-        function sharePost(msg) {
-            const inputTemp = document.createElement('input');
-            inputTemp.value = msg; document.body.appendChild(inputTemp);
-            inputTemp.select(); document.execCommand('copy'); document.body.removeChild(inputTemp);
-            openModalMessage("Link Exported!", "Promotion URL committed to clipboard systems.");
-        }
-
-        function openModalMessage(title, text) {
-            drawer.style.display = 'flex'; dTitle.textContent = title;
-            dBody.innerHTML = `<p>${text}</p><div class="dialog-buttons"><button class="dialog-btn-cancel" onclick="closeDrawer()">OK</button></div>`;
-        }
-
-        function triggerGoldenIngotSpawn() {
-            const container = document.getElementById('goldenIngotLayer');
-            if (!container) return;
-            const ingot = document.createElement('div');
-            ingot.className = 'golden-ingot-shock'; ingot.innerHTML = "👑";
-
-            const x = Math.random() * (window.innerWidth - 100) + 20;
-            const y = Math.random() * (window.innerHeight - 200) + 80;
-            ingot.style.left = `${x}px`; ingot.style.top = `${y}px`;
-
-            ingot.onclick = () => {
-                playChimeClick(); container.removeChild(ingot);
-                if (Math.random() > 0.5) {
-                    frenzyTimer = 20; calculateYieldBalances();
-                    openModalMessage("👑 GOLDEN SHOCK EVENT!", "You clicked the Golden Token! Global vectors boosted by 7x for 20 seconds!");
-                } else {
-                    const dynamicGain = Math.max(500, calculateYieldBalances(true) * 120);
-                    db.cash += dynamicGain;
-                    openModalMessage("👑 GOLDEN FORTUNE!", `The Golden Token rewarded you an instant investment dividend of +$${dynamicGain.toLocaleString()}!`);
-                }
-                refreshUI();
-            };
-            container.appendChild(ingot);
-            setTimeout(() => { if (container.contains(ingot)) container.removeChild(ingot); }, 12000);
-        }
-
-        setInterval(() => { if (Math.random() < 0.3) triggerGoldenIngotSpawn(); }, 20000);
-
-        function toggleFaqAccordion(element) {
-            const parent = element.parentElement;
-            const panel = element.nextElementSibling;
-            
-            if (parent.classList.contains('active')) {
-                panel.style.maxHeight = null;
-                parent.classList.remove('active');
-            } else {
-                document.querySelectorAll('.faq-block').forEach(block => {
-                    block.classList.remove('active');
-                    block.querySelector('.faq-answer-panel').style.maxHeight = null;
-                });
-                
-                parent.classList.add('active');
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        }
-
-        class PaperBill {
-            constructor(x, y) {
-                this.x = x; this.y = y;
-                this.vx = (Math.random() - 0.5) * 18; this.vy = -Math.random() * 10 - 12;
-                this.angle = Math.random() * Math.PI * 2; this.spin = (Math.random() - 0.5) * 0.2;
-                this.opacity = 1; this.scaleW = Math.random() * 10 + 46; this.scaleH = this.scaleW / 1.8;
-            }
-            tick(dt) {
-                this.x += this.vx * dt * 60; this.y += this.vy * dt * 60; this.vy += 0.5 * dt * 60;
-                this.angle += this.spin * dt * 60; this.vx *= Math.pow(0.975, dt * 60);
-                if (this.y > window.innerHeight - 80) this.opacity -= 0.04 * dt * 60;
-            }
-            render() {
-                if (this.opacity <= 0) return;
-                ctx.save(); ctx.translate(this.x, this.y); ctx.rotate(this.angle); ctx.globalAlpha = Math.max(0, this.opacity);
-                ctx.fillStyle = '#013a12'; ctx.fillRect(-this.scaleW/2, -this.scaleH/2, this.scaleW, this.scaleH);
-                ctx.fillStyle = '#00e676'; ctx.fillRect(-this.scaleW/2 + 2, -this.scaleH/2 + 2, this.scaleW - 4, this.scaleH - 4);
-                ctx.restore();
-            }
-        }
-
-        class DigitIndicator {
-            constructor(x, y, message) { this.x = x; this.y = y; this.message = message; this.vy = -4; this.opacity = 1; }
-            tick(dt) { this.y += this.vy * dt * 60; this.opacity -= 0.025 * dt * 60; }
-            render() {
-                if (this.opacity <= 0) return;
-                ctx.save(); ctx.globalAlpha = Math.max(0, this.opacity);
-                ctx.font = 'bold 26px -apple-system, sans-serif'; ctx.textAlign = 'center';
-                ctx.fillStyle = '#00ff77'; ctx.shadowColor = 'rgba(0,230,118,1)'; ctx.shadowBlur = 12;
-                ctx.fillText(this.message, this.x, this.y); ctx.restore();
-            }
-        }
-
-        const mBtn = document.getElementById('moneyButton');
-        mBtn.addEventListener('pointerdown', (e) => {
-            e.preventDefault();
-            db.cash += db.clickPower;
-            db.totalHistoricalClicks += 1;
-            playChimeClick();
-            
-            mBtn.classList.add('clicking');
-            setTimeout(() => mBtn.classList.remove('clicking'), 40);
-            
-            if(db.fxEnabled) {
-                const rect = canvas.getBoundingClientRect();
-                const x = e.clientX - rect.left; const y = e.clientY - rect.top;
-                floaters.push(new DigitIndicator(x, y - 25, `+$${db.clickPower.toLocaleString()}`));
-                
-                const burstLimit = Math.min(6, 40 - dollarBills.length);
-                for(let i=0; i<burstLimit; i++) { dollarBills.push(new PaperBill(x, y)); }
-            }
-            refreshUI();
-        });
-
-        const drawer = document.getElementById('systemDrawer');
-        const dTitle = document.getElementById('drawerTitle');
-        const dBody = document.getElementById('drawerBody');
-
-        function openDrawer(type) {
-            drawer.style.display = 'flex';
-            if (type === 'prestige') {
-                let formula = Math.floor(Math.sqrt(db.cash / 5000000));
-                dTitle.textContent = "Perform Capital Prestige Rebirth";
-                dBody.innerHTML = `
-                    <p>Reset your asset portfolio layout blocks to claim high-multiplier prestige levels (+10% production bonus each tier level).</p>
-                    <p>Requires cash threshold layer of at least $5,000,000.</p>
-                    <h4 style="color: var(--accent-gold); text-align:center; padding:0.5rem 0;">Gainable Tiers Now: +${formula}</h4>
-                    <div class="dialog-buttons">
-                        <button class="danger-action-btn" ${formula <= 0 ? 'disabled style="background:#1d2733; color:#445;"' : ''} onclick="confirmPrestigeReset(${formula})">Execute Capital Rebirth</button>
-                    </div>
-                `;
-            } else if (type === 'settings') {
-                let totalBusinesses = 0;
-                Object.values(db.upgradesOwned).forEach(v => { if (typeof v === 'number') totalBusinesses += v; });
-
-                dTitle.textContent = "Preferences & Enterprise Metrics";
-                dBody.innerHTML = `
-                    <div style="background:rgba(0,0,0,0.4); padding: 1rem; border-radius:12px; border:1px solid var(--panel-border); margin-bottom:12px;">
-                        <h4 style="color:var(--money-green); margin-bottom:0.5rem;">📊 Stats Matrix</h4>
-                        <p style="font-size:0.85rem;">Total Manual Clicks Actioned: <strong>${db.totalHistoricalClicks}</strong></p>
-                        <p style="font-size:0.85rem; margin-top:4px;">Total Commercial Assets Owned: <strong>${totalBusinesses} Tiers</strong></p>
-                        <p style="font-size:0.85rem; margin-top:4px;">Base Yield Scalar: <strong>${(db.permMultiplier * 100).toFixed(0)}%</strong></p>
-                    </div>
-                    <div class="setting-control"><span>High Fluidity Drop Animations</span><button class="toggle-btn ${db.fxEnabled ? 'active' : ''}" onclick="toggleVisuals()">Toggle</button></div>
-                    <div class="setting-control" style="margin-top: 10px;"><span>Audio Feedback Synthesizer</span><button class="toggle-btn ${db.soundEnabled ? 'active' : ''}" onclick="toggleAudioEngine()">Toggle</button></div>
-                    <div class="setting-control" style="margin-top: 10px;"><span>Dynamic Ads Wheel (10 Events)</span><button class="purchase-btn premium-buy" onclick="runAdEventFortuneWheel()">Trigger Random Ad Event</button></div>
-                    <div class="setting-control" style="margin-top:10px;"><button class="danger-action-btn" onclick="wipeLocalSystemCache()">Hard Reset Progression</button></div>
-                `;
-            }
-        }
-
-        function closeDrawer() { drawer.style.display = 'none'; }
-        function toggleVisuals() { db.fxEnabled = !db.fxEnabled; saveSystem(); openDrawer('settings'); }
-        function toggleAudioEngine() { db.soundEnabled = !db.soundEnabled; saveSystem(); openDrawer('settings'); }
-
-        function runAdEventFortuneWheel() {
-            closeDrawer();
-            const randomIndex = Math.floor(Math.random() * 10) + 1;
-            if (randomIndex <= 5) {
-                openModalMessage("Streaming Video Ad Module...", "<div style='text-align:center; padding:1.5rem 0;'><p style='color:var(--accent-gold); font-weight:bold; animation:pulse 1s infinite;'>[ Loading Marketing Node Ad Data Stream... ]</p><p style='font-size:0.85rem; margin-top:0.6rem; color:var(--text-muted);'>Reward unlocks instantly in 3 seconds</p></div>");
-                setTimeout(() => { closeDrawer(); executePremiumAdReward(randomIndex); }, 3000);
-            } else {
-                executeFreeLuckReward(randomIndex);
-            }
-        }
-
-        function executePremiumAdReward(id) {
-            let baselineMps = calculateYieldBalances(true);
-            switch(id) {
-                case 1:
-                    let gift = Math.max(1000, baselineMps * 3600); db.cash += gift;
-                    openModalMessage("📺 Ad Reward: Windfall Grant", `Angel investment group cleared your portfolio video! Granted an immediate capital dividend of +$${gift.toLocaleString()}!`);
-                    break;
-                case 2:
-                    passiveBuffTimer = 30;
-                    openModalMessage("📺 Ad Reward: Viral Exposure Boost", "Your corporate marketing video clip went viral! Base passive enterprise yield operations multiplied by 3x for 30 seconds!");
-                    break;
-                case 3:
-                    clickBuffTimer = 45;
-                    openModalMessage("📺 Ad Reward: Click Overclock Core", "Interactive tracking metrics systemized! Manual clicking arrays optimized at 5x power vectors for 45 seconds!");
-                    break;
-                case 4:
-                    db.diamonds += 5;
-                    openModalMessage("📺 Ad Reward: Diamond Cache", "Diamond broker nodes recognized your attention vector! Loaded +5 Premium Diamonds to account ledger.");
-                    break;
-                case 5:
-                    db.prestigeTokens += 1;
-                    openModalMessage("📺 Ad Reward: Prestige Infiltration", "Sovereign matrix systems loaded successfully. Awarded +1 Golden Prestige Level safely without wiping your businesses!");
-                    break;
-            }
-            calculateYieldBalances(); refreshUI(); saveSystem();
-        }
-
-        function executeFreeLuckReward(id) {
-            let baselineMps = calculateYieldBalances(true);
-            switch(id) {
-                case 6:
-                    let saving = Math.max(250, baselineMps * 300); db.cash += saving;
-                    openModalMessage("🎉 Free Event: Tax Loophole Audited", `Your auditors managed to secure an immediate localized tax write-off value of +$${saving.toLocaleString()}!`);
-                    break;
-                case 7:
-                    db.upgradesOwned['custom_buff_click'] = (db.upgradesOwned['custom_buff_click'] || 0) + 15;
-                    openModalMessage("🎉 Free Event: Synergy Realignment", "A micro core structural update occurred. Base manual processing value pushed up by +$15 permanently.");
-                    break;
-                case 8:
-                    db.diamonds += 1;
-                    openModalMessage("🎉 Free Event: Diamond Matrix Spill", "Found 1 raw Premium Diamond tucked behind your system registry files! Balance modified.");
-                    break;
-                case 9:
-                    frenzyTimer = 15;
-                    openModalMessage("🎉 Free Event: Macro Bull Run", "Global liquidity streams entered an absolute hype spike! All yields scaled by 7x for 15 seconds!");
-                    break;
-                case 10:
-                    let drop = 2500; db.cash += drop;
-                    openModalMessage("🎉 Free Event: Seed Grant Drop", `A small independent regional venture incubator sent you a bonus envelope containing +$${drop.toLocaleString()} cash!`);
-                    break;
-            }
-            calculateYieldBalances(); refreshUI(); saveSystem();
-        }
-
-        function confirmPrestigeReset(tokens) {
-            if(tokens > 0) {
-                db.prestigeTokens += tokens; db.cash = 0; db.upgradesOwned = {}; db.upgradesCost = {};
-                isStoreBuilt = false; frenzyTimer = 0; clickBuffTimer = 0; passiveBuffTimer = 0;
-                calculateYieldBalances(); saveSystem(); refreshUI(); closeDrawer();
-            }
-        }
-
-        function wipeLocalSystemCache() { localStorage.clear(); location.reload(); }
-
-        function resizeCanvas() {
-            const dpr = window.devicePixelRatio || 1;
-            canvas.width = window.innerWidth * dpr; canvas.height = window.innerHeight * dpr;
-            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        }
-        window.addEventListener('resize', resizeCanvas); resizeCanvas();
-
-        let lastTickTime = performance.now();
-        setInterval(() => {
-            const now = performance.now();
-            const deltaSeconds = (now - lastTickTime) / 1000;
-            lastTickTime = now;
-
-            if (frenzyTimer > 0) { frenzyTimer -= deltaSeconds; if (frenzyTimer <= 0) { frenzyTimer = 0; calculateYieldBalances(); } }
-            if (passiveBuffTimer > 0) { passiveBuffTimer -= deltaSeconds; if (passiveBuffTimer <= 0) { passiveBuffTimer = 0; calculateYieldBalances(); } }
-            if (clickBuffTimer > 0) { clickBuffTimer -= deltaSeconds; if (clickBuffTimer <= 0) { clickBuffTimer = 0; calculateYieldBalances(); } }
-
-            if(db.mps > 0) {
-                db.cash += (db.mps * deltaSeconds);
-                if(db.fxEnabled && Math.random() < 0.12 && dollarBills.length < 15) {
-                    dollarBills.push(new PaperBill(Math.random() * canvas.width, -30));
-                }
-                refreshUI(); saveSystem();
-            } else {
-                refreshUI();
-            }
-        }, 100);
-
-        let lastFrameTime = performance.now();
-        function executeFrame(now) {
-            let dt = (now - lastFrameTime) / 1000;
-            if (dt > 0.1) dt = 0.1;
-            lastFrameTime = now;
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            if(db.fxEnabled) {
-                for(let i = dollarBills.length - 1; i >= 0; i--) {
-                    dollarBills[i].tick(dt); dollarBills[i].render();
-                    if(dollarBills[i].opacity <= 0 || dollarBills[i].y > window.innerHeight) dollarBills.splice(i, 1);
-                }
-                for(let i = floaters.length - 1; i >= 0; i--) {
-                    floaters[i].tick(dt); floaters[i].render();
-                    if(floaters[i].opacity <= 0) floaters.splice(i, 1);
-                }
-            }
-            requestAnimationFrame(executeFrame);
-        }
-
-        window.onload = function() {
-            calculateYieldBalances(); renderStore(); refreshUI(); requestAnimationFrame(executeFrame);
-            
-            // Check for illegal client window state hash parameters on startup
-            if (window.location.hash && window.location.hash !== "#game" && window.location.hash !== "#blog") {
-                triggerDynamicErrorPage(404, "Page Route Not Found", "The system route link or parameter chunk you tried to load doesn't exist or was removed.");
-            }
-        };
-    </script>
+    <script src="game.js" defer></script>
 </body>
 </html>
